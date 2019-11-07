@@ -26,7 +26,7 @@ Gefinn er HTML og CSS grunnur með útliti sem ekki ætti að þurfa að breyta.
 Leit skal:
 
 * Aðeins leyfa að leita ef gildi í `<input>` er ekki tómistrengur, annars skal birta skilaboðin `Lén verður að vera strengur`
-* Birta skilaboðin `Leita að fyrirtæki...` ásamt mynd `loading.gif` meðan leitað er, sjá `.loading` class
+* Birta skilaboðin `Leita að fyrirtækjum...` ásamt mynd `loading.gif` meðan leitað er, sjá `.loading` class
 
 Villumeðhöndlun:
 
