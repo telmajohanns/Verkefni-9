@@ -107,12 +107,12 @@ const program = (() => {
         if (response.ok) {
           return response.json();
         }
-        throw new Error('Villa kom upp');
+        throw new Error('Villa við að sækja gögn');
       }).then((data) => {
         displayCompany(data.results);
       })
       .catch((error) => {
-        displayError('Villa');
+        displayError('Villa við að sækja gögn');
         console.error(error); 
       });
   }
@@ -125,7 +125,7 @@ const program = (() => {
     if (input.value.trim().length > 0) {
       fetchData(input.value);
     } else {
-      displayError('Lén verður að vera strengur');
+      displayError('Ekkert fyrirtæki fannst fyrir leitarstreng');
     }
   }
 
